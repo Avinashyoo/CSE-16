@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 5</title>
+    <style>
+    .center-text {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <h1 class="center-text">Student Registration Form</h1>
+    <hr>
+    <form action="#" method="post">
+
+        <label for="Name"> Full Name:</label>
+        <input type="text" id="name" id="Name" name="Name" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="Email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter valid email address" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- course -->
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+             <option value="Course">--Select Course--</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+        </select>
+        <br><br>
+        
+        <!-- contact number -->
+        <label for="phone">Contact No.:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required>
+        <br><br>
+
+        <!-- address -->
+        <label for="address">Address:</label>
+        <br>
+        <textarea id="address" name="address" rows="4" cols="40" required></textarea>
+        <br><br>
+
+        <!-- Buttons -->
+         <button type="submit">Register</button>
+         <button type="reset">Clear Form</button>
+
+    </form>
+    <hr>
+    <p class="center-text">&copy; 2025 Student Registration Form</p>
+</body>
+</html>
